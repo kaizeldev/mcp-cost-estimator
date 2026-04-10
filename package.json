@@ -1,0 +1,21 @@
+{
+  "name": "mcp-cost-estimator",
+  "version": "1.0.0",
+  "description": "Minimal MCP server for estimating LLM costs via stdin/stdout",
+  "main": "src/index.js",
+  "bin": {
+    "mcp-cost-estimator": "./src/index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "llm",
+    "cost",
+    "estimator"
+  ],
+  "author": "Riku",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "estimate_llm_cost",
+  "params": {
+    "model_id": "gpt-4o",
+    "input_tokens": 500000,
+    "output_tokens": 1000000
+  }
+}
